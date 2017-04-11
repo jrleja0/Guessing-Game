@@ -1,0 +1,148 @@
+/* GuessingGame CSS */
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-image: url("Starscape_NYC_Crop_Opt400px.jpg");
+  background-repeat: repeat;
+}
+
+header {
+  background-position: left;
+  background-size: cover;
+}
+
+#headers-opacity {
+  background-color: rgba(30, 30, 188, 0.8);
+}
+
+#header1 {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2.6em;
+  color: white;
+}
+
+#header2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-size: 2.4em;
+  color: #16ba19;
+}
+
+#input-parent {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  position: relative;
+  height: 240px;
+  width: 240px;
+}
+
+#player-input {
+  background-color: #edf4f4;
+  width: 240px;
+  height: 240px;
+  border-radius: 200px;
+  font-size: 8em;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#submitButton {
+  position: absolute;
+  border-radius: 50px;
+  height: 110px;
+  width: 120px;
+  bottom: -28px;
+  right: -45px;
+  font-size: 1.6em;
+  z-index: 50;
+  border: 4px solid green;
+}
+
+#goodLuck {
+  position: absolute;
+  display: none;
+  left: 300px;
+  top: 180px;
+  width: 200px;
+  color: #f4bced;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.guess {
+  background-color: #edf4f4;
+  position: relative;
+  bottom: -30px;
+  height: 120px;
+  border-radius: 40px;
+  display: inline;
+  padding: 25px;
+  font-size: 3em;
+  border: 5px solid blue;
+}
+
+ul {
+  height: 120px;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-btns {
+  margin-top: 20px;
+  font-family: Georgia, Serif;
+}
+
+#resetButton {
+  margin-right: 6px;
+  height: 64px;
+  width: 160px;
+  color: yellow;
+  font-size: 1.85em;
+  font-weight: 500;
+  border: 4px solid yellow;
+}
+
+#hintButton {
+  margin-left: 6px;
+  height: 64px;
+  width: 120px;
+  color: #1f1abc;
+  font-size: 2em;
+  font-weight: 500;
+  border: 4px solid #1f1abc;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  border-top: solid 2px black;
+  background: #c8ef99 url(https://raw.githubusercontent.com/jrleja0/Tile-Abstraction-v1/master/Green%20Tile.jpeg);
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+}
+
+img {
+  width: 208px;
+  height: 68px;
+  border: 4px solid red;
+  margin-top: 14px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+#credit {
+  padding-top: 30px;
+}
+
+h4 {
+  height: 36px;
+  font-size: 1.5em;
+  font-family: Georgia, Serif;
+  color: white;
+}
